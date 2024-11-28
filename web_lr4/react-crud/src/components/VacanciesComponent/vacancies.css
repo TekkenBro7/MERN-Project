@@ -1,0 +1,43 @@
+.vacancies-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vacancies-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.vacancy {
+    width: calc(50% - 20px);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    transition: box-shadow 0.3s;
+    box-sizing: border-box;
+}
+
+.vacancy img {
+    border-radius: 100px;
+    float: left;
+    height: 130px;
+    margin: -20px 10px 10px 0;
+}
+
+.vacancy p:nth-of-type(2) {
+    clear: both;
+}
+
+.vacancy:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

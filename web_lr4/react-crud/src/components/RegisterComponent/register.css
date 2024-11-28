@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-register {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-register h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container-register form div {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.container-register label {
+    display: block;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.container-register input[type="text"],
+.container-register input[type="email"],
+.container-register input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.container-register input[type="text"]:focus,
+.container-register input[type="email"]:focus,
+.container-register input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.container-register button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container-register button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.container-register p {
+    margin-top: 15px;
+    color: #333;
+}
+
+.container-register p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.container-register p a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

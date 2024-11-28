@@ -1,0 +1,33 @@
+.paginationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.paginationWrapper button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.paginationWrapper button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.paginationWrapper button.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0056b3;
+}
+
+.paginationWrapper button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
